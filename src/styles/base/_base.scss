@@ -12,5 +12,9 @@ html {
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: green;
+  background: $c-bg-main;
+}
+
+abbr {
+  text-decoration: none;
 }
