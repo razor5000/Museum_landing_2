@@ -100,14 +100,14 @@
   }
 
   &__link {
-    text-decoration: dashed;
     color: $c-bg-main;
-
+    text-decoration: dashed;
   }
 
   &__title {
-    margin: 0;
     transform-origin: 30px;
+    margin: 0;
+
     @include hover(scale, 1.05);
   }
 

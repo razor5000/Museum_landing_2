@@ -53,10 +53,12 @@
   &__burger-container {
     position: relative;
     z-index: 101;
+
     display: flex;
     gap: 30px;
-    height: 30px;
     align-items: center;
+
+    height: 30px;
   }
 
   &__burger {
